@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.18.0",
- "generated_at": "2026-10-07T10:34:58+00:00",
+ "catalog_version": "0.19.0",
+ "generated_at": "2026-10-07T11:34:52+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -201,6 +201,37 @@
    "color_key": "asp",
    "added_at": "2026-09-05",
    "csv_format": "amex",
+   "thresholds": [
+    {
+     "id": "spend-30k",
+     "condition": {
+      "kind": "spend",
+      "amount": 30000,
+      "text": "Spend $30,000 on this card"
+     },
+     "period": "calendar",
+     "lasts": "same_period",
+     "unlocks": [
+      "amex-hilton-aspire.spend-night-1"
+     ]
+    },
+    {
+     "id": "spend-60k",
+     "condition": {
+      "kind": "spend",
+      "amount": 60000,
+      "text": "Spend $60,000 on this card"
+     },
+     "period": "calendar",
+     "lasts": "same_period",
+     "unlocks": [
+      "amex-hilton-aspire.spend-night-2"
+     ],
+     "implies": [
+      "spend-30k"
+     ]
+    }
+   ],
    "benefits": [
     {
      "id": "amex-hilton-aspire.resort",
@@ -314,7 +345,7 @@
      "quote": "Free night certificate annually upon card renewal",
      "checked_on": "2026-09-05",
      "verification": "unverified",
-     "notes": "Issued at renewal, so it follows your card anniversary. Extra nights come at $30,000 and $60,000 of spending in a calendar year."
+     "notes": "Issued at renewal, so it follows your card anniversary."
     },
     {
      "id": "amex-hilton-aspire.diamond",
@@ -347,6 +378,38 @@
      "quote": "Complimentary enrollment",
      "checked_on": "2026-09-05",
      "verification": "unverified"
+    },
+    {
+     "id": "amex-hilton-aspire.spend-night-1",
+     "name": "First spend free night",
+     "kind": "noncash",
+     "redemption": "none",
+     "requires": "spend-30k",
+     "enrollment_required": false,
+     "unit": "night",
+     "valuation": "user_set",
+     "value_category": "hotel_night",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+     "quote": "each calendar year, you can earn a Free Night Reward after you spend $30,000 in purchases on your Card",
+     "checked_on": "2026-10-06",
+     "verification": "verified"
+    },
+    {
+     "id": "amex-hilton-aspire.spend-night-2",
+     "name": "Second spend free night",
+     "kind": "noncash",
+     "redemption": "none",
+     "requires": "spend-60k",
+     "enrollment_required": false,
+     "unit": "night",
+     "valuation": "user_set",
+     "value_category": "hotel_night",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
+     "quote": "and earn another Free Night Reward after you spend an additional $30,000 in purchases on your Card",
+     "checked_on": "2026-10-06",
+     "verification": "verified"
     }
    ]
   },
@@ -1141,6 +1204,25 @@
    "color_key": "csr",
    "added_at": "2026-09-05",
    "csv_format": "chase",
+   "thresholds": [
+    {
+     "id": "spend-75k",
+     "condition": {
+      "kind": "spend",
+      "amount": 75000,
+      "text": "Spend $75,000 on this card"
+     },
+     "period": "calendar",
+     "lasts": "through_next_period",
+     "unlocks": [
+      "chase-sapphire-reserve.hyatt-explorist",
+      "chase-sapphire-reserve.ihg-diamond",
+      "chase-sapphire-reserve.shops-at-chase",
+      "chase-sapphire-reserve.southwest-credit",
+      "chase-sapphire-reserve.southwest-a-list"
+     ]
+    }
+   ],
    "benefits": [
     {
      "id": "chase-sapphire-reserve.travel",
@@ -1322,10 +1404,11 @@
      "credit_line_patterns": [
       "SELECT HOTELS"
      ],
-     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
-     "quote": "$250 ... Calendar year (2026 only) ... 12/31/2026",
-     "checked_on": "2026-09-05",
-     "verification": "unverified"
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "Get up to $250 in statement credits through 12/31/26 on prepaid Chase Travel hotel bookings for stays with IHG Hotels & Resorts, Montage Hotels & Resorts, Pendry Hotels & Resorts, Omni Hotels & Resorts, Virgin Hotels, Minor Hotels, and Pan Pacific Hotels and Resorts.",
+     "checked_on": "2026-10-07",
+     "verification": "verified",
+     "notes": "Only prepaid Chase Travel hotel bookings count, at IHG, Montage, Pendry, Omni, Virgin, Minor and Pan Pacific properties, with a two-night minimum. Purchases that qualify earn no points. The credit ends 31 December 2026."
     },
     {
      "id": "chase-sapphire-reserve.global-entry",
@@ -1421,6 +1504,92 @@
      "quote": "\"IHG One Rewards Platinum Elite\" through 12/31/2027",
      "checked_on": "2026-09-05",
      "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.hyatt-explorist",
+     "name": "World of Hyatt Explorist status",
+     "kind": "noncash",
+     "redemption": "none",
+     "requires": "spend-75k",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "will be eligible for World of Hyatt Explorist status for the remainder of the calendar year in which you qualify, through the following calendar year, and through February of the calendar year after that",
+     "checked_on": "2026-10-06",
+     "verification": "verified",
+     "notes": "Link your World of Hyatt account in the Chase app to activate it. It lasts until the end of February, two months longer than the card's other spending-level benefits."
+    },
+    {
+     "id": "chase-sapphire-reserve.ihg-diamond",
+     "name": "IHG One Rewards Diamond Elite status",
+     "kind": "noncash",
+     "redemption": "none",
+     "requires": "spend-75k",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "will be eligible for IHG One Rewards Diamond Elite status for the remainder of the calendar year in which you qualify and the following calendar year",
+     "checked_on": "2026-10-06",
+     "verification": "verified",
+     "notes": "Link your IHG One Rewards account in the Chase app to activate it. If you already activated IHG Platinum Elite, it switches on by itself."
+    },
+    {
+     "id": "chase-sapphire-reserve.shops-at-chase",
+     "name": "Credit for The Shops at Chase",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "requires": "spend-75k",
+     "cap": 250,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "up to a maximum accumulation of $250 for the remainder of the calendar year in which you qualify through the following calendar year",
+     "checked_on": "2026-10-06",
+     "verification": "verified",
+     "notes": "Statement credits apply by themselves on purchases at The Shops at Chase. If you qualify two years running, up to $500 can be available at once."
+    },
+    {
+     "id": "chase-sapphire-reserve.southwest-credit",
+     "name": "Southwest Airlines Chase Travel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "requires": "spend-75k",
+     "cap": 500,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "up to a maximum accumulation of $500 for the remainder of the calendar year in which you qualify expiring at the end of the following calendar year",
+     "checked_on": "2026-10-06",
+     "verification": "verified",
+     "notes": "Only Southwest purchases made through Chase Travel count, and they earn no points. If you qualify two years running, up to $1,000 can be available at once."
+    },
+    {
+     "id": "chase-sapphire-reserve.southwest-a-list",
+     "name": "Southwest Airlines A-List status",
+     "kind": "noncash",
+     "redemption": "none",
+     "requires": "spend-75k",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "airline_status",
+     "holding": "held",
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "will be eligible for Southwest Rapid Rewards A-List status for the remainder of the calendar year in which you qualify through the following calendar year (expiring on December 31st of that year)",
+     "checked_on": "2026-10-06",
+     "verification": "verified",
+     "notes": "Link your Southwest Rapid Rewards account in the Chase app to activate it. The name on your card must match the name on your Rapid Rewards account."
     }
    ]
   },
