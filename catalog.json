@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.17.0",
- "generated_at": "2026-10-07T00:04:08+00:00",
+ "catalog_version": "0.18.0",
+ "generated_at": "2026-10-07T10:34:58+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -11,6 +11,7 @@
    "network": "amex",
    "annual_fee": 650,
    "color_key": "dsr",
+   "added_at": "2026-10-05",
    "csv_format": "amex",
    "benefits": [
     {
@@ -198,6 +199,7 @@
    "network": "amex",
    "annual_fee": 550,
    "color_key": "asp",
+   "added_at": "2026-09-05",
    "csv_format": "amex",
    "benefits": [
     {
@@ -356,6 +358,7 @@
    "network": "amex",
    "annual_fee": 895,
    "color_key": "plat",
+   "added_at": "2026-09-05",
    "csv_format": "amex",
    "benefits": [
     {
@@ -755,6 +758,7 @@
    "network": "mastercard",
    "annual_fee": 495,
    "color_key": "bilt",
+   "added_at": "2026-09-05",
    "csv_format": "none",
    "benefits": [
     {
@@ -837,6 +841,7 @@
    "network": "visa",
    "annual_fee": 395,
    "color_key": "atmossummit",
+   "added_at": "2026-10-06",
    "csv_format": "none",
    "thresholds": [
     {
@@ -1042,6 +1047,7 @@
    "network": "visa",
    "annual_fee": 95,
    "color_key": "csp",
+   "added_at": "2026-09-24",
    "csv_format": "chase",
    "benefits": [
     {
@@ -1133,6 +1139,7 @@
    "network": "visa",
    "annual_fee": 795,
    "color_key": "csr",
+   "added_at": "2026-09-05",
    "csv_format": "chase",
    "benefits": [
     {
@@ -1425,6 +1432,7 @@
    "network": "visa",
    "annual_fee": 695,
    "color_key": "club",
+   "added_at": "2026-09-05",
    "csv_format": "chase",
    "benefits": [
     {
@@ -1654,6 +1662,7 @@
    "network": "visa",
    "annual_fee": 150,
    "color_key": "uexp",
+   "added_at": "2026-10-05",
    "csv_format": "chase",
    "thresholds": [
     {
@@ -1913,6 +1922,7 @@
    "network": "visa",
    "annual_fee": 350,
    "color_key": "quest",
+   "added_at": "2026-09-05",
    "csv_format": "chase",
    "benefits": [
     {
