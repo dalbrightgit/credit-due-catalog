@@ -1,0 +1,2149 @@
+{
+ "schema_version": 1,
+ "catalog_version": "0.17.0",
+ "generated_at": "2026-10-07T00:04:08+00:00",
+ "cards": [
+  {
+   "id": "amex-delta-skymiles-reserve",
+   "name": "Delta SkyMiles\u00ae Reserve American Express Card",
+   "short_name": "SkyMiles Reserve",
+   "issuer": "American Express",
+   "network": "amex",
+   "annual_fee": 650,
+   "color_key": "dsr",
+   "csv_format": "amex",
+   "benefits": [
+    {
+     "id": "amex-delta-skymiles-reserve.resy",
+     "name": "Delta Resy credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 240,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "per_window_cap": 20,
+     "enrollment_required": true,
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "you can earn up to $20 per month in statement credits on eligible purchases at over 10,000 qualifying U.S. Resy restaurants",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Enroll your card first. Pay with this card at a U.S. Resy restaurant."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.rideshare",
+     "name": "Airport rideshare credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "per_window_cap": 10,
+     "enrollment_required": true,
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Earn up to $10 in statement credits each month after using your Delta SkyMiles\u00ae Reserve American Express Card on U.S. rideshare purchases with select providers.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Enrollment is required. Applies to U.S. rideshare purchases with select providers."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.delta-stays",
+     "name": "Delta Stays credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "an annual statement credit of up to $200 after using your Delta SkyMiles\u00ae Reserve American Express Card to book prepaid hotels or vacation rentals through Delta Stays on delta.com",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Only prepaid hotels or vacation rentals booked through Delta Stays on delta.com and paid for with this card count."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.venue-collection",
+     "name": "Venue concessions credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 250,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Plus enroll your Card and get 10% back on qualifying concessions purchases up to $250 per calendar year.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Enroll your card. One enrolled card per Card Member. Applies at select stadiums and arenas."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.global-entry",
+     "name": "Global Entry / TSA PreCheck",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Receive either a statement credit every 4 years after you apply for Global Entry ($120) or a statement credit after you apply for a five-year membership for TSA PreCheck\u00ae (up to $85 through a TSA PreCheck official enrollment provider)",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Pay the application fee with this card. The credit is $120 for Global Entry every 4 years, or up to $85 for a five-year TSA PreCheck membership."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.companion-certificate",
+     "name": "Companion Certificate",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "companion_certificate",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Enjoy a Companion Certificate on a Delta First, Delta Comfort, or Delta Main round-trip flight within the U.S. and to Mexico, the Caribbean, or Central America each year after renewal of your Card.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "You get one certificate each year, after you renew. Delta Basic fares are not eligible, and you still pay government taxes and fees of $22 to $250."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.mqd-headstart",
+     "name": "MQD Headstart",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "other",
+     "holding": "held",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "With MQD Headstart, you can receive $2,500 Medallion Qualification Dollars each Medallion Qualification Year",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "$2,500 toward Delta Medallion status each Medallion Qualification Year."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.sky-club",
+     "name": "Delta Sky Club visits",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Delta SkyMiles\u00ae Reserve American Express Card Members enjoy 15 Visits each Medallion\u00ae Year to the Delta Sky Club\u00ae when flying Delta",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Only when you are flying Delta: 15 visits each Medallion Year. Spend $75,000 on the card in a calendar year to unlock unlimited access."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.centurion-delta",
+     "name": "Centurion Lounge",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Enjoy complimentary access to The Centurion\u00ae Lounge when you book your Delta flight with your Reserve Card.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "For Delta flights: access applies when you book your Delta flight with this card."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.checked-bags-delta",
+     "name": "Delta free checked bags",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "checked_bag",
+     "holding": "per_use",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Enjoy your first checked bag free on Delta flights worldwide",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "First checked bag free on Delta flights worldwide. On domestic Delta flights the second bag is free too."
+    },
+    {
+     "id": "amex-delta-skymiles-reserve.hertz",
+     "name": "Hertz President's Circle status",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://www.americanexpress.com/us/credit-cards/card/delta-skymiles-reserve-american-express-card/",
+     "quote": "Transform your car rental experience with Hertz President\u2019s Circle\u00ae Status, compliments of your Delta SkyMiles\u00ae Reserve American Express Card.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Add your Hertz Gold+ account number to your SkyMiles account and enroll in the promotion at delta.com/hertz."
+    }
+   ]
+  },
+  {
+   "id": "amex-hilton-aspire",
+   "name": "Hilton Honors American Express Aspire Card",
+   "short_name": "Hilton Aspire",
+   "issuer": "American Express",
+   "network": "amex",
+   "annual_fee": 550,
+   "color_key": "asp",
+   "csv_format": "amex",
+   "benefits": [
+    {
+     "id": "amex-hilton-aspire.resort",
+     "name": "Hilton resort credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 400,
+     "cadence": "semiannual",
+     "anchor": "calendar",
+     "per_window_cap": 200,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "HILTON",
+      "WALDORF",
+      "CONRAD",
+      "CURIO",
+      "LXR"
+     ],
+     "credit_line_patterns": [
+      "HILTON RESORT"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "up to $200 in statement credits semi-annually for eligible purchases made directly with participating Hilton Resorts",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only purchases made directly with a participating Hilton resort qualify."
+    },
+    {
+     "id": "amex-hilton-aspire.flight",
+     "name": "Flight credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "quarterly",
+     "anchor": "calendar",
+     "per_window_cap": 50,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "UNITED",
+      "DELTA",
+      "AMERICAN AIR",
+      "SOUTHWEST",
+      "JETBLUE",
+      "ALASKA AIR",
+      "AMEX TRAVEL"
+     ],
+     "credit_line_patterns": [
+      "AIRLINE",
+      "FLIGHT CREDIT"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "up to $50 per quarter for airline purchases made directly with the airline or through AmexTravel.com",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-hilton-aspire.clear",
+     "name": "CLEAR Plus",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 219,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "partial_capable": false,
+     "merchant_patterns": [
+      "CLEAR"
+     ],
+     "credit_line_patterns": [
+      "CLEAR"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "up to $219 per calendar year in statement credits when you pay for your membership",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only one card can reimburse your CLEAR membership; the Platinum carries the same credit."
+    },
+    {
+     "id": "amex-hilton-aspire.waldorf-conrad",
+     "name": "Waldorf Astoria and Conrad on-property credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "WALDORF",
+      "CONRAD"
+     ],
+     "credit_line_patterns": [
+      "WALDORF",
+      "CONRAD"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "up to a $100 credit for qualifying charges at Waldorf Astoria Hotels & Resorts and Conrad Hotels & Resorts properties when you book a 2 night minimum stay",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-hilton-aspire.free-night",
+     "name": "Annual free night",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "night",
+     "valuation": "user_set",
+     "value_category": "hotel_night",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "Free night certificate annually upon card renewal",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Issued at renewal, so it follows your card anniversary. Extra nights come at $30,000 and $60,000 of spending in a calendar year."
+    },
+    {
+     "id": "amex-hilton-aspire.diamond",
+     "name": "Hilton Diamond status",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "Complimentary automatic status",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-hilton-aspire.national-executive",
+     "name": "National Emerald Club Executive",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/hilton-honors-american-express-aspire-card/benefits/",
+     "quote": "Complimentary enrollment",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    }
+   ]
+  },
+  {
+   "id": "amex-platinum",
+   "name": "The Platinum Card from American Express",
+   "short_name": "Amex Platinum",
+   "issuer": "American Express",
+   "network": "amex",
+   "annual_fee": 895,
+   "color_key": "plat",
+   "csv_format": "amex",
+   "benefits": [
+    {
+     "id": "amex-platinum.hotel",
+     "name": "Hotel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 600,
+     "cadence": "semiannual",
+     "anchor": "calendar",
+     "per_window_cap": 300,
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "AMEX TRAVEL",
+      "AMEXTRAVEL",
+      "FINE HOTELS",
+      "THE HOTEL COLLECTION"
+     ],
+     "credit_line_patterns": [
+      "HOTEL CREDIT"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Up to $600 yearly ($300 semi-annually) in statement credits for hotel stays",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only prepaid Fine Hotels + Resorts and The Hotel Collection bookings made through Amex Travel count. The Hotel Collection needs a 2-night stay."
+    },
+    {
+     "id": "amex-platinum.resy",
+     "name": "Resy dining",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 400,
+     "cadence": "quarterly",
+     "anchor": "calendar",
+     "per_window_cap": 100,
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "RESY"
+     ],
+     "credit_line_patterns": [
+      "RESY"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "$400 Resy dining credit ... $100/quarter",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Pay with this card at a restaurant that takes Resy reservations."
+    },
+    {
+     "id": "amex-platinum.lululemon",
+     "name": "Lululemon",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "quarterly",
+     "anchor": "calendar",
+     "per_window_cap": 75,
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "LULULEMON"
+     ],
+     "credit_line_patterns": [
+      "LULULEMON"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "lululemon $300 ... $75/quarter",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-platinum.digital-entertainment",
+     "name": "Digital entertainment",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "DISNEY",
+      "HULU",
+      "ESPN",
+      "PEACOCK",
+      "NYTIMES",
+      "NEW YORK TIMES",
+      "WSJ",
+      "WALL STREET JOURNAL",
+      "PARAMOUNT"
+     ],
+     "routes": [
+      "Disney",
+      "Hulu",
+      "ESPN"
+     ],
+     "credit_line_patterns": [
+      "DIGITAL ENTERTAINMENT"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Digital Entertainment $300 ... $25/month",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-platinum.uber-cash",
+     "name": "Uber Cash",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 200,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      35
+     ],
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "UBER"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Uber Cash $200 ... $15\u2013$20/month",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "It never appears as a statement credit: it is loaded into your Uber app on the 1st. You get $15 a month, plus an extra $20 in December."
+    },
+    {
+     "id": "amex-platinum.uber-one",
+     "name": "Uber One membership",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "UBER ONE",
+      "UBER *ONE"
+     ],
+     "credit_line_patterns": [
+      "UBER ONE"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Uber One $120 ... Annual auto-renewal",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-platinum.airline-fee",
+     "name": "Airline fee credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "UNITED",
+      "DELTA",
+      "AMERICAN AIR",
+      "SOUTHWEST",
+      "JETBLUE",
+      "ALASKA AIR"
+     ],
+     "credit_line_patterns": [
+      "AIRLINE FEE"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Airline Fee $200 ... Annual (one airline) ... Enroll once yearly",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only incidental fees count (bags, seats, lounge day passes), and only on the one airline you choose for the year."
+    },
+    {
+     "id": "amex-platinum.equinox",
+     "name": "Equinox",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "value_to_me_default": 0,
+     "merchant_patterns": [
+      "EQUINOX"
+     ],
+     "credit_line_patterns": [
+      "EQUINOX"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Equinox $300 ... Annual auto-renewal",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "You need an Equinox membership to use this."
+    },
+    {
+     "id": "amex-platinum.clear",
+     "name": "CLEAR Plus",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 209,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "partial_capable": false,
+     "merchant_patterns": [
+      "CLEAR"
+     ],
+     "credit_line_patterns": [
+      "CLEAR"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "CLEAR Plus $209 ... Annual auto-renewal",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only one CLEAR membership can be reimbursed; the Hilton Aspire carries the same credit."
+    },
+    {
+     "id": "amex-platinum.walmart-plus",
+     "name": "Walmart+",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 155.4,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95,
+      12.95
+     ],
+     "enrollment_required": true,
+     "partial_capable": false,
+     "merchant_patterns": [
+      "WALMART+",
+      "WALMART PLUS",
+      "WMT PLUS"
+     ],
+     "routes": [
+      "Walmart+"
+     ],
+     "credit_line_patterns": [
+      "WALMART"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Walmart+ $155 ... $12.95/month",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Covers the monthly membership before tax."
+    },
+    {
+     "id": "amex-platinum.oura",
+     "name": "Oura ring",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": true,
+     "value_to_me_default": 50,
+     "merchant_patterns": [
+      "OURA"
+     ],
+     "credit_line_patterns": [
+      "OURA"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Oura Ring $200 ... One-time purchase",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Only hardware bought directly from Oura counts."
+    },
+    {
+     "id": "amex-platinum.global-entry",
+     "name": "Global Entry / TSA PreCheck",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "GLOBAL ENTRY",
+      "TSA PRECHECK",
+      "CBP",
+      "NEXUS"
+     ],
+     "routes": [
+      "Global Entry",
+      "TSA PreCheck"
+     ],
+     "credit_line_patterns": [
+      "GLOBAL ENTRY",
+      "TSA"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Global Entry/TSA PreCheck $120 ... Every 4\u20134.5 years",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-platinum.saks",
+     "name": "Saks Fifth Avenue",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "ends_on": "2026-07-01",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "SAKS"
+     ],
+     "credit_line_patterns": [
+      "SAKS"
+     ],
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Saks Fifth Avenue $100 ... July 1, 2026",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "This credit has ended; earlier claims stay in your history."
+    },
+    {
+     "id": "amex-platinum.centurion",
+     "name": "Centurion Lounge",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "uncapped",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "market_price": 50,
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Centurion Lounge Access \u2013 Unlimited visits",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Guests need $75,000 of annual spending, or cost $50 each."
+    },
+    {
+     "id": "amex-platinum.priority-pass",
+     "name": "Priority Pass Select",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "notes": "An unlimited Priority Pass membership retails at $469 a year. Set what a visit is worth to you.",
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Priority Pass Select \u2013 Unlimited complimentary membership",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "amex-platinum.hotel-status",
+     "name": "Hilton Gold and Marriott Gold",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
+     "quote": "Hilton Honors Gold ... Marriott Bonvoy Gold",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "If you also hold the Hilton Aspire, its Hilton Diamond status makes the Hilton half of this benefit redundant."
+    }
+   ]
+  },
+  {
+   "id": "bilt-palladium",
+   "name": "Bilt Palladium Card",
+   "short_name": "Bilt Palladium",
+   "issuer": "Cardless",
+   "network": "mastercard",
+   "annual_fee": 495,
+   "color_key": "bilt",
+   "csv_format": "none",
+   "benefits": [
+    {
+     "id": "bilt-palladium.hotel",
+     "name": "Bilt Travel hotel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 400,
+     "cadence": "semiannual",
+     "anchor": "calendar",
+     "per_window_cap": 200,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "BILT TRAVEL"
+     ],
+     "credit_line_patterns": [
+      "BILT TRAVEL",
+      "HOTEL CREDIT"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/bilt-palladium-card/beneifts/",
+     "quote": "$400 annual Bilt Travel Hotel credit \u2013 applied as \"$200 statement credits\" twice yearly for qualifying Bilt Travel Portal bookings (requires 2-night minimum stay)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "bilt-palladium.bilt-cash",
+     "name": "Bilt Cash",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "source": "https://upgradedpoints.com/credit-cards/reviews/bilt-palladium-card/beneifts/",
+     "quote": "$200 annual Bilt Cash \u2013 awarded annually; any balance over $100 expires at year-end",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Any Bilt Cash balance above $100 expires on Dec 31. It is deposited each January 1."
+    },
+    {
+     "id": "bilt-palladium.priority-pass",
+     "name": "Priority Pass with 2 guests",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/bilt-palladium-card/beneifts/",
+     "quote": "Priority Pass membership (valued at $469/year) ... Cardholder plus 2 guests per visit",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "This is a third Priority Pass if you also hold the Platinum and Sapphire Reserve. An unlimited membership retails at $469 a year."
+    },
+    {
+     "id": "bilt-palladium.gold-status",
+     "name": "Bilt Gold status",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/bilt-palladium-card/beneifts/",
+     "quote": "Gold status upon meeting welcome bonus spending threshold",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Includes a $100 property credit with select partners, higher Rent Day transfer bonuses and BLADE lounge access."
+    }
+   ]
+  },
+  {
+   "id": "bofa-atmos-summit",
+   "name": "Atmos\u2122 Rewards Summit Visa Infinite\u00ae",
+   "short_name": "Atmos Summit",
+   "issuer": "Bank of America",
+   "network": "visa",
+   "annual_fee": 395,
+   "color_key": "atmossummit",
+   "csv_format": "none",
+   "thresholds": [
+    {
+     "id": "spend-60k",
+     "condition": {
+      "kind": "spend",
+      "amount": 60000,
+      "text": "Spend $60,000 on this card"
+     },
+     "period": "card_year",
+     "lasts": "same_period",
+     "unlocks": [
+      "bofa-atmos-summit.companion-award-100k"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "bofa-atmos-summit.lounge-passes",
+     "name": "Alaska Lounge passes",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "8 Alaska Lounge passes (a $500+ value) and 8 Wi-Fi passes (a $60+ value) every year (2 of each per calendar quarter).",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "8 passes a year, 2 per calendar quarter. Each is valid for your entire travel day and includes up to two accompanying children. Alaska advertises the 8 passes as a $500+ value."
+    },
+    {
+     "id": "bofa-atmos-summit.wifi-passes",
+     "name": "Wi-Fi passes",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "pass",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "8 Alaska Lounge passes (a $500+ value) and 8 Wi-Fi passes (a $60+ value) every year (2 of each per calendar quarter).",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "8 passes a year, 2 per calendar quarter. Alaska advertises the 8 passes as a $60+ value."
+    },
+    {
+     "id": "bofa-atmos-summit.checked-bag-boarding",
+     "name": "Free checked bag and preferred boarding",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "checked_bag",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "A free checked bag and preferred boarding for you and up to six guests on the same reservation when you pay for your flight with your card",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Applies when you pay for your flight with this card; covers you and up to six guests on the same reservation."
+    },
+    {
+     "id": "bofa-atmos-summit.signature-cocktail",
+     "name": "Lounge signature cocktail",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "ends_on": "2026-12-31",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "Receive an exclusive signature cocktail or elevated bar offering every time you visit an Alaska Lounge location (through 2026)",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Offered on every Alaska Lounge visit through 2026."
+    },
+    {
+     "id": "bofa-atmos-summit.airport-security-credit",
+     "name": "Airport security credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "Up to a $120 Airport Security Statement Credit every four years in connection with the TSA PreCheck\u00ae or Global Entry trusted traveler programs",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "TSA PreCheck or Global Entry. One credit every four years."
+    },
+    {
+     "id": "bofa-atmos-summit.change-fee-waiver",
+     "name": "Same-day change fee waiver",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "Same-day confirmed change fee waiver for Alaska flights (excluding Saver fare)",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Alaska flights only; Saver fares are excluded."
+    },
+    {
+     "id": "bofa-atmos-summit.award-booking-fee-waiver",
+     "name": "Partner award booking fee waiver",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "Partner award booking fee waiver \u2014 Save up to $25 per person on every roundtrip flight.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Saves up to $25 per person on every roundtrip partner award flight."
+    },
+    {
+     "id": "bofa-atmos-summit.travel-delay-voucher",
+     "name": "Travel delay voucher",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "Travel delay protection \u2014 receive a $50 voucher for a same-day cancellation or delays of 2+ hours good for a meal or drink on us at the airport.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "A $50 airport meal or drink voucher for an Alaska flight cancelled the same day or delayed 2+ hours, for any reason."
+    },
+    {
+     "id": "bofa-atmos-summit.companion-award-25k",
+     "name": "Global Companion Award (25,000 points)",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "companion_certificate",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "25,000-point Global Companion Award: Earned after qualifying purchases on a new account and annually after each card anniversary.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "You get one award a year, after each card anniversary. Worth up to 25,000 points off a companion award ticket when you book award travel for two on the same itinerary. Taxes and fees must be paid with this card."
+    },
+    {
+     "id": "bofa-atmos-summit.companion-award-100k",
+     "name": "Global Companion Award (100,000 points)",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "companion_certificate",
+     "holding": "per_use",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "100,000-point Global Companion Award: Earned by spending $60,000 or more on purchases in a card anniversary year.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "requires": "spend-60k",
+     "notes": "You get one award a year, in a year you spend $60,000. Worth up to 100,000 points off a companion award ticket when you book award travel for two on the same itinerary. Taxes and fees must be paid with this card."
+    },
+    {
+     "id": "bofa-atmos-summit.status-points",
+     "name": "10,000 status points",
+     "kind": "noncash",
+     "redemption": "none",
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "airline_status",
+     "holding": "held",
+     "enrollment_required": false,
+     "source": "https://www.alaskaair.com/atmosrewards/content/credit-cards/online-offer",
+     "quote": "beginning with your first card anniversary, 10,000 status points awarded annually.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "10,000 status points awarded every year, starting with your first card anniversary."
+    }
+   ]
+  },
+  {
+   "id": "chase-sapphire-preferred",
+   "name": "Chase Sapphire Preferred",
+   "short_name": "Sapphire Preferred",
+   "issuer": "Chase",
+   "network": "visa",
+   "annual_fee": 95,
+   "color_key": "csp",
+   "csv_format": "chase",
+   "benefits": [
+    {
+     "id": "chase-sapphire-preferred.hotel",
+     "name": "Chase Travel hotel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+     "quote": "Earn up to $100 in statement credits each account anniversary year for hotel stays purchased through Chase Travel",
+     "checked_on": "2026-09-24",
+     "verification": "verified",
+     "notes": "Only hotel stays booked through Chase Travel qualify. The credit applies automatically, and the first $100 of those hotel purchases each year earns no points."
+    },
+    {
+     "id": "chase-sapphire-preferred.global-entry",
+     "name": "Global Entry / TSA PreCheck / NEXUS",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+     "quote": "Receive one statement credit of up to $120 every four years as reimbursement for the application fee charged to your card.",
+     "checked_on": "2026-09-24",
+     "verification": "verified",
+     "notes": "Pay the application fee directly to the government program or an authorized enrollment provider; fees paid through third-party application services do not qualify."
+    },
+    {
+     "id": "chase-sapphire-preferred.doordash",
+     "name": "DoorDash non-restaurant promo",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 120,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+     "quote": "Plus, DashPass members get a $10 promo each month ($120 annually) to save on groceries, retail orders, and more through December 31, 2027.",
+     "checked_on": "2026-09-24",
+     "verification": "verified",
+     "notes": "Activate the complimentary DashPass first. $10 off one non-restaurant order (groceries, retail) each calendar month, chosen at DoorDash checkout. Unused value does not roll over."
+    },
+    {
+     "id": "chase-sapphire-preferred.dashpass",
+     "name": "DashPass membership",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "held",
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+     "quote": "Get a complimentary DashPass membership, a $120 value for 12 months.",
+     "checked_on": "2026-09-24",
+     "verification": "verified",
+     "notes": "Activate with this card on DoorDash by December 31, 2027. Chase describes it as a $120 value for 12 months; set what it is worth to you."
+    },
+    {
+     "id": "chase-sapphire-preferred.apple-tv",
+     "name": "Apple TV",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "valuation": "uncapped",
+     "value_category": "other",
+     "holding": "held",
+     "market_price": 179.88,
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+     "quote": "Get a year of complimentary Apple TV when activated by December 31, 2026 - a value of $156.",
+     "checked_on": "2026-09-24",
+     "verification": "verified",
+     "notes": "Activate on chase.com or the Chase app by December 31, 2026 for at least 12 months of Apple TV. Chase calls it a $156 value; Apple charges $14.99 a month."
+    }
+   ]
+  },
+  {
+   "id": "chase-sapphire-reserve",
+   "name": "Chase Sapphire Reserve",
+   "short_name": "Sapphire Reserve",
+   "issuer": "Chase",
+   "network": "visa",
+   "annual_fee": 795,
+   "color_key": "csr",
+   "csv_format": "chase",
+   "benefits": [
+    {
+     "id": "chase-sapphire-reserve.travel",
+     "name": "Travel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "UNITED",
+      "DELTA",
+      "AMERICAN AIR",
+      "SOUTHWEST",
+      "JETBLUE",
+      "ALASKA AIR",
+      "MARRIOTT",
+      "HILTON",
+      "HYATT",
+      "AIRBNB",
+      "UBER",
+      "LYFT",
+      "AMTRAK",
+      "PARKING",
+      "TOLL"
+     ],
+     "credit_line_patterns": [
+      "TRAVEL CREDIT"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "$300 ... Anniversary year",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Applies automatically to the first $300 you spend on any travel purchase each account-anniversary year."
+    },
+    {
+     "id": "chase-sapphire-reserve.edit-hotel",
+     "name": "The Edit hotel credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 500,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "per_use_cap": 250,
+     "max_uses": 2,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "THE EDIT",
+      "CHASE TRAVEL"
+     ],
+     "credit_line_patterns": [
+      "EDIT",
+      "HOTEL CREDIT"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "Up to $250 per qualifying 2+ night stay, max 2 bookings ... Calendar year",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.dining",
+     "name": "Exclusive Tables dining credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "semiannual",
+     "anchor": "calendar",
+     "per_window_cap": 150,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "OPENTABLE"
+     ],
+     "credit_line_patterns": [
+      "DINING CREDIT",
+      "EXCLUSIVE TABLES"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "$300 ... $150 per half-year (Jan-Jun, Jul-Dec)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Restaurants in the Sapphire Reserve Exclusive Tables program, booked through OpenTable."
+    },
+    {
+     "id": "chase-sapphire-reserve.stubhub",
+     "name": "StubHub and viagogo",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 300,
+     "cadence": "semiannual",
+     "anchor": "calendar",
+     "per_window_cap": 150,
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "STUBHUB",
+      "VIAGOGO"
+     ],
+     "credit_line_patterns": [
+      "STUBHUB"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "$300 ... $150 per half-year (Jan-Jun, Jul-Dec) ... 12/31/2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.doordash",
+     "name": "DoorDash promotions",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 300,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "DOORDASH"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "DoorDash/DashPass: Up to \"$25 a month\" (no rollover)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "$5 restaurant plus two $10 non-restaurant promos, applied at DoorDash checkout. DashPass membership is separate and noncash."
+    },
+    {
+     "id": "chase-sapphire-reserve.peloton",
+     "name": "Peloton membership",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "ends_on": "2027-12-31",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "PELOTON"
+     ],
+     "credit_line_patterns": [
+      "PELOTON"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "Peloton: \"$10 monthly\" through 12/31/2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.lyft",
+     "name": "Lyft credit",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 120,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "ends_on": "2027-09-30",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "LYFT"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "Lyft: \"$10 monthly\" through 9/30/2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Book your ride inside the Lyft app for the credit to apply automatically."
+    },
+    {
+     "id": "chase-sapphire-reserve.select-hotels-2026",
+     "name": "Chase Travel Select Hotels credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 250,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "ends_on": "2026-12-31",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "CHASE TRAVEL"
+     ],
+     "credit_line_patterns": [
+      "SELECT HOTELS"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "$250 ... Calendar year (2026 only) ... 12/31/2026",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.global-entry",
+     "name": "Global Entry / TSA PreCheck / NEXUS",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "GLOBAL ENTRY",
+      "TSA PRECHECK",
+      "CBP",
+      "NEXUS"
+     ],
+     "routes": [
+      "Global Entry",
+      "TSA PreCheck",
+      "NEXUS"
+     ],
+     "credit_line_patterns": [
+      "GLOBAL ENTRY",
+      "TSA"
+     ],
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "Up to \"$120 every four years\"",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.apple",
+     "name": "Apple TV+ and Apple Music",
+     "kind": "noncash",
+     "redemption": "none",
+     "ends_on": "2027-06-22",
+     "enrollment_required": true,
+     "unit": "year",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "held",
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "\"Apple TV+ and Apple Music\" complimentary through 6/22/2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.dashpass",
+     "name": "DashPass membership",
+     "kind": "noncash",
+     "redemption": "none",
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "unit": "year",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "held",
+     "notes": "DashPass is an ordinary paid membership anyone can buy. Set what you pay for it.",
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "complimentary DoorDash DashPass membership",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.lounges",
+     "name": "Priority Pass Select and Sapphire Lounges",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "notes": "An unlimited Priority Pass membership retails at $469 a year, and Sapphire Lounges are not sold at all. Set what a visit is worth to you.",
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "Priority Pass Select (1,300+ lounges, plus 2 guests complimentary) ... 8 Chase Sapphire Lounges",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-sapphire-reserve.ihg-platinum",
+     "name": "IHG One Rewards Platinum Elite",
+     "kind": "noncash",
+     "redemption": "none",
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://www.nextcard.com/articles/chase-sapphire-reserve-benefits",
+     "quote": "\"IHG One Rewards Platinum Elite\" through 12/31/2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    }
+   ]
+  },
+  {
+   "id": "chase-united-club",
+   "name": "United Club Card",
+   "short_name": "United Club",
+   "issuer": "Chase",
+   "network": "visa",
+   "annual_fee": 695,
+   "color_key": "club",
+   "csv_format": "chase",
+   "benefits": [
+    {
+     "id": "chase-united-club.renowned-hotels",
+     "name": "Renowned Hotels and Resorts",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "RENOWNED"
+     ],
+     "credit_line_patterns": [
+      "RENOWNED"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $200 ... Anniversary year ... Prepaid hotel accommodations",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-club.jsx",
+     "name": "JSX flights",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "JSX"
+     ],
+     "routes": [
+      "JSX"
+     ],
+     "credit_line_patterns": [
+      "JSX"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $200 ... Anniversary year ... Direct booking with JSX",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "value_to_me_default": 0,
+     "notes": "Worth something to you only if JSX flies routes you use."
+    },
+    {
+     "id": "chase-united-club.instacart",
+     "name": "Instacart credits",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 240,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+     ],
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "INSTACART"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $240 ... Calendar year ... 2x $10 credits monthly",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Two $10 credits a month applied at Instacart checkout. Instacart+ membership is complimentary through Dec 31 2027."
+    },
+    {
+     "id": "chase-united-club.rideshare",
+     "name": "Rideshare credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 150,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      18
+     ],
+     "enrollment_required": true,
+     "enrollment_cadence": "annual",
+     "merchant_patterns": [
+      "UBER",
+      "LYFT"
+     ],
+     "credit_line_patterns": [
+      "RIDESHARE"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $12/month Jan-Nov, $18 in Dec (yearly opt-in required)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "You need to opt in again every year."
+    },
+    {
+     "id": "chase-united-club.avis-budget",
+     "name": "Avis or Budget rental credit",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "per_use_cap": 50,
+     "max_uses": 2,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "AVIS",
+      "BUDGET"
+     ],
+     "credit_line_patterns": [
+      "AVIS",
+      "BUDGET"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $100 ... Anniversary year ... $50 per rental on first and second rental",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-club.global-entry",
+     "name": "Global Entry / TSA PreCheck / NEXUS",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "GLOBAL ENTRY",
+      "TSA PRECHECK",
+      "CBP",
+      "NEXUS"
+     ],
+     "routes": [
+      "Global Entry",
+      "TSA PreCheck",
+      "NEXUS"
+     ],
+     "credit_line_patterns": [
+      "GLOBAL ENTRY",
+      "TSA"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Up to $120",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "One traveller needs only one of these credits; the Sapphire Reserve and Platinum carry the same one."
+    },
+    {
+     "id": "chase-united-club.club-membership",
+     "name": "United Club membership",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Complimentary United Club access for cardholder and one guest",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Membership retails above $750 a year. Set what a visit is worth to you."
+    },
+    {
+     "id": "chase-united-club.checked-bags",
+     "name": "Free first and second checked bags",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "checked_bag",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Free first and second checked bags (cardholder and 1 companion)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "One use is one checked bag on one flight leg. United publishes a bag fee; set what a bag is worth to you."
+    },
+    {
+     "id": "chase-united-club.status",
+     "name": "IHG Platinum, Avis President's Club, 1,500 PQP",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": true,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "hotel_or_car_status",
+     "holding": "held",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-club-infinite-card/",
+     "quote": "Complimentary IHG One Rewards Platinum Elite Status ... Complimentary Avis President's Club elite status ... 1,500 Card Bonus PQP",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    }
+   ]
+  },
+  {
+   "id": "chase-united-explorer",
+   "name": "United Explorer Card",
+   "short_name": "United Explorer",
+   "issuer": "Chase",
+   "network": "visa",
+   "annual_fee": 150,
+   "color_key": "uexp",
+   "csv_format": "chase",
+   "thresholds": [
+    {
+     "id": "spend-10k",
+     "condition": {
+      "kind": "spend",
+      "amount": 10000,
+      "text": "Spend $10,000 on this card"
+     },
+     "period": "calendar",
+     "lasts": "same_period",
+     "unlocks": [
+      "chase-united-explorer.travelbank"
+     ]
+    },
+    {
+     "id": "spend-20k",
+     "condition": {
+      "kind": "spend",
+      "amount": 20000,
+      "text": "Spend $20,000 on this card"
+     },
+     "period": "calendar",
+     "lasts": "same_period",
+     "unlocks": [
+      "chase-united-explorer.award-discount-explorer"
+     ]
+    }
+   ],
+   "benefits": [
+    {
+     "id": "chase-united-explorer.hotels",
+     "name": "United Hotels credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "per_use_cap": 50,
+     "max_uses": 2,
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Receive $50 back as a statement credit on both your 1st and 2nd prepaid hotel stays purchased directly through United\u00ae Hotels",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "$50 back on each of your first two prepaid stays booked directly through United Hotels. Choose Pay Now at booking."
+    },
+    {
+     "id": "chase-united-explorer.jsx",
+     "name": "JSX flights",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Get up to $100 back as a statement credit each anniversary year when you book flights directly with JSX",
+     "checked_on": "2026-10-04",
+     "verification": "verified"
+    },
+    {
+     "id": "chase-united-explorer.avis-budget",
+     "name": "Avis or Budget rental credit",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 50,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "per_use_cap": 25,
+     "max_uses": 2,
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Receive $25 in United\u00ae TravelBank cash, up to $50 each anniversary year, for your 1st and 2nd Avis or Budget car rental booked directly through mileageplustravel.united.com",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Paid as United TravelBank cash, not a statement credit. Book through mileageplustravel.united.com while logged in, with your MileagePlus number on the reservation."
+    },
+    {
+     "id": "chase-united-explorer.rideshare",
+     "name": "Rideshare credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 60,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+     ],
+     "enrollment_required": true,
+     "enrollment_cadence": "annual",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Enroll to receive up to $5 back as a statement credit each month on rideshare purchases when you pay with your United\u2120 Explorer Card, up to $60 each calendar year.",
+     "checked_on": "2026-10-04",
+     "verification": "verified"
+    },
+    {
+     "id": "chase-united-explorer.instacart",
+     "name": "Instacart credits",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 120,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+     ],
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Receive a $10 Instacart credit monthly, up to $120 total each calendar year",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Needs an active Instacart+ membership; the card's complimentary membership is activated on Instacart's Chase page. Each monthly credit applies to one purchase of $10 or more and does not roll over."
+    },
+    {
+     "id": "chase-united-explorer.travelbank",
+     "name": "$100 United travel credit",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 100,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "requires": "spend-10k",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Earn $100 in TravelBank cash after spending $10,000 with your UnitedSM Explorer Card within a calendar year.",
+     "checked_on": "2026-10-04",
+     "verification": "conflicting",
+     "notes": "Paid as United TravelBank cash, not a statement credit."
+    },
+    {
+     "id": "chase-united-explorer.global-entry",
+     "name": "Global Entry / TSA PreCheck / NEXUS",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "You will receive one statement credit every four years (up to $120)",
+     "checked_on": "2026-10-04",
+     "verification": "verified"
+    },
+    {
+     "id": "chase-united-explorer.checked-bag",
+     "name": "Free first checked bag",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "checked_bag",
+     "holding": "per_use",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Free first checked bag - the primary Cardmember and one companion can each check a first standard bag for free - save up to $200 per roundtrip.",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "You and one companion on the same reservation. Chase says this saves up to $200 per roundtrip; set what it is worth to you."
+    },
+    {
+     "id": "chase-united-explorer.club-passes",
+     "name": "United Club one-time passes",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "lounge_visit",
+     "holding": "per_use",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "2 United Club one-time passes per year",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Two passes a year. Chase calls them over a $100 value; set what they are worth to you."
+    },
+    {
+     "id": "chase-united-explorer.priority-boarding",
+     "name": "Group 2 priority boarding",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "trip",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Group 2 Priority boarding - the primary Cardmember and companions on the same reservation will be invited to board United-operated flights prior to general boarding",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Chase puts the value at $48 per person per roundtrip; set what it is worth to you."
+    },
+    {
+     "id": "chase-united-explorer.award-discount-explorer",
+     "name": "10,000-mile award flight discount",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "requires": "spend-20k",
+     "unit": "year",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "Earn a 10,000-mile award flight discount after spending $20,000 each calendar year",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "Set what the discount is worth to you."
+    },
+    {
+     "id": "chase-united-explorer.pqp-explorer",
+     "name": "Premier Qualifying Points",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "other",
+     "holding": "held",
+     "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
+     "quote": "The primary Cardmember will earn 1 Premier Qualifying Point (PQP) for every $20 in net purchases",
+     "checked_on": "2026-10-04",
+     "verification": "verified",
+     "notes": "1 point per $20 spent, up to 1,000 a calendar year, counting toward United Premier status."
+    }
+   ]
+  },
+  {
+   "id": "chase-united-quest",
+   "name": "United Quest Card",
+   "short_name": "United Quest",
+   "issuer": "Chase",
+   "network": "visa",
+   "annual_fee": 350,
+   "color_key": "quest",
+   "csv_format": "chase",
+   "benefits": [
+    {
+     "id": "chase-united-quest.travelbank",
+     "name": "United TravelBank credit",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 200,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "$200 in United TravelBank cash after account opening and annually on your account anniversary",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "It will not appear as a statement credit: it is deposited into your United TravelBank account."
+    },
+    {
+     "id": "chase-united-quest.renowned-hotels",
+     "name": "Renowned Hotels and Resorts",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 150,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "RENOWNED"
+     ],
+     "credit_line_patterns": [
+      "RENOWNED"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "up to $150 back in statements credits each anniversary year",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-quest.jsx",
+     "name": "JSX flights",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 150,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "enrollment_required": false,
+     "value_to_me_default": 0,
+     "merchant_patterns": [
+      "JSX"
+     ],
+     "routes": [
+      "JSX"
+     ],
+     "credit_line_patterns": [
+      "JSX"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "up to $150 back in statement credits each anniversary year",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-quest.instacart",
+     "name": "Instacart credits",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 180,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+     ],
+     "ends_on": "2027-12-31",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "INSTACART"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "up to $180 each calendar year ... ($10 monthly plus $5 monthly); benefits end December 31, 2027",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "After the 3 free months you need a paid Instacart+ membership."
+    },
+    {
+     "id": "chase-united-quest.rideshare",
+     "name": "Rideshare credit",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 100,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "month_caps": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      12
+     ],
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "UBER",
+      "LYFT"
+     ],
+     "credit_line_patterns": [
+      "RIDESHARE"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "up to $8 back as a statement credit each month from January through November, up to $12 back in December",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-quest.avis-budget",
+     "name": "Avis or Budget rental credit",
+     "kind": "cash",
+     "redemption": "deposit",
+     "cap": 80,
+     "cadence": "annual",
+     "anchor": "anniversary",
+     "per_use_cap": 40,
+     "max_uses": 2,
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "AVIS",
+      "BUDGET"
+     ],
+     "credit_line_patterns": [
+      "AVIS",
+      "BUDGET"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "up to $80 each anniversary year ($40 per first and second Avis/Budget rental booked through cars.united.com)",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-quest.global-entry",
+     "name": "Global Entry / TSA PreCheck / NEXUS",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 120,
+     "cadence": "every_4_years",
+     "anchor": "last_use",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "GLOBAL ENTRY",
+      "TSA PRECHECK",
+      "CBP",
+      "NEXUS"
+     ],
+     "routes": [
+      "Global Entry",
+      "TSA PreCheck",
+      "NEXUS"
+     ],
+     "credit_line_patterns": [
+      "GLOBAL ENTRY",
+      "TSA"
+     ],
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "Up to $120 Global Entry, TSA PreCheck, or NEXUS credit",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    },
+    {
+     "id": "chase-united-quest.award-discount",
+     "name": "10,000-mile award flight discount",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "valuation": "user_set",
+     "value_category": "other",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "10,000-mile discount to use toward an eligible award flight",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "Follows your card anniversary. Set what the 10,000-mile discount is worth to you."
+    },
+    {
+     "id": "chase-united-quest.checked-bags",
+     "name": "Free first and second checked bags",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "visit",
+     "valuation": "user_set",
+     "value_category": "checked_bag",
+     "holding": "per_use",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "Free checked bags (1st and 2nd) for cardholder and one companion",
+     "checked_on": "2026-09-05",
+     "verification": "unverified",
+     "notes": "The United Club card carries the same bag benefit for the same traveller. United publishes a bag fee; set what a bag is worth to you."
+    },
+    {
+     "id": "chase-united-quest.pqp",
+     "name": "1,000 bonus PQP",
+     "kind": "noncash",
+     "redemption": "none",
+     "enrollment_required": false,
+     "unit": "year",
+     "unit_value_default": 0,
+     "valuation": "no_market",
+     "value_category": "other",
+     "holding": "held",
+     "source": "https://upgradedpoints.com/credit-cards/reviews/united-quest-card-review/",
+     "quote": "1,000 Card Bonus PQP each year, awarded within 8 weeks of February 1",
+     "checked_on": "2026-09-05",
+     "verification": "unverified"
+    }
+   ]
+  }
+ ]
+}
