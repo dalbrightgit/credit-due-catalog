@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.20.0",
- "generated_at": "2026-10-07T20:24:57+00:00",
+ "catalog_version": "0.21.0",
+ "generated_at": "2026-10-08T17:47:14+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -250,9 +250,6 @@
       "CURIO",
       "LXR"
      ],
-     "credit_line_patterns": [
-      "HILTON RESORT"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
      "quote": "Enjoy up to $200 in statement credits semi-annually, for up to $400 back per year, on eligible purchases made directly with participating Hilton Resorts using your Hilton Honors American Express Aspire Card.",
      "checked_on": "2026-10-07",
@@ -278,10 +275,6 @@
       "ALASKA AIR",
       "AMEX TRAVEL"
      ],
-     "credit_line_patterns": [
-      "AIRLINE",
-      "FLIGHT CREDIT"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
      "quote": "Get up to $50 in statement credits each quarter, for a total of up to $200 back each year, on flight purchases made directly with an airline, through AmexTravel.com, or through the Amex Travel App\u2122 using your Hilton Honors American Express Aspire Card.",
      "checked_on": "2026-10-07",
@@ -298,9 +291,6 @@
      "enrollment_required": true,
      "partial_capable": false,
      "merchant_patterns": [
-      "CLEAR"
-     ],
-     "credit_line_patterns": [
       "CLEAR"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
@@ -322,14 +312,11 @@
       "WALDORF",
       "CONRAD"
      ],
-     "credit_line_patterns": [
-      "WALDORF",
-      "CONRAD"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire/",
      "quote": "Receive up to a $100 credit for qualifying charges at Waldorf Astoria\u00ae Hotels & Resorts and Conrad\u00ae Hotels & Resorts properties when you book a 2 night minimum stay with your Card at HiltonHonorsAspireCard.com",
      "checked_on": "2026-10-07",
-     "verification": "verified"
+     "verification": "verified",
+     "notes": "Up to $100 per booking of two nights or more, paid on your hotel bill at checkout. Book through HiltonHonorsAspireCard.com or by phone."
     },
     {
      "id": "amex-hilton-aspire.free-night",
@@ -440,9 +427,6 @@
       "FINE HOTELS",
       "THE HOTEL COLLECTION"
      ],
-     "credit_line_patterns": [
-      "HOTEL CREDIT"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Get up to $300 back in statement credits semi-annually for up to a total of $600 per year on prepaid Fine Hotels + Resorts\u00ae or The Hotel Collection",
      "checked_on": "2026-10-07",
@@ -462,9 +446,6 @@
      "merchant_patterns": [
       "RESY"
      ],
-     "credit_line_patterns": [
-      "RESY"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Statement credits up to $100 quarterly when you make eligible purchases at qualifying U.S. Resy restaurants. Enrollment required.",
      "checked_on": "2026-10-07",
@@ -482,9 +463,6 @@
      "per_window_cap": 75,
      "enrollment_required": true,
      "merchant_patterns": [
-      "LULULEMON"
-     ],
-     "credit_line_patterns": [
       "LULULEMON"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -516,9 +494,6 @@
       "Disney",
       "Hulu",
       "ESPN"
-     ],
-     "credit_line_patterns": [
-      "DIGITAL ENTERTAINMENT"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Get up to $25 in statement credits each month when you use your Platinum Card\u00ae for eligible purchases make eligible purchases on Disney+, a Disney+ bundle, ESPN streaming services, Hulu, The New York Times, Paramount+, Peacock, The Wall Street Journal, YouTube Premium, and YouTube TV.",
@@ -570,9 +545,6 @@
       "UBER ONE",
       "UBER *ONE"
      ],
-     "credit_line_patterns": [
-      "UBER ONE"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "As a Platinum Card\u00ae Member, you can get up to $120 in statement credits each calendar year after you purchase an auto-renewing Uber One membership with the Card.",
      "checked_on": "2026-10-07",
@@ -595,9 +567,6 @@
       "JETBLUE",
       "ALASKA AIR"
      ],
-     "credit_line_patterns": [
-      "AIRLINE FEE"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Earn up to $200 per calendar year in statement credits after incidental fees, such as checked bags and in-flight refreshments, are charged by your one selected qualifying airline to your Card.",
      "checked_on": "2026-10-07",
@@ -615,9 +584,6 @@
      "enrollment_required": true,
      "value_to_me_default": 0,
      "merchant_patterns": [
-      "EQUINOX"
-     ],
-     "credit_line_patterns": [
       "EQUINOX"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -640,9 +606,6 @@
      "merchant_patterns": [
       "CLEAR"
      ],
-     "credit_line_patterns": [
-      "CLEAR"
-     ],
      "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
      "quote": "CLEAR Plus $209 ... Annual auto-renewal",
      "checked_on": "2026-09-05",
@@ -662,9 +625,6 @@
      "enrollment_required": true,
      "partial_capable": false,
      "merchant_patterns": [
-      "CLEAR"
-     ],
-     "credit_line_patterns": [
       "CLEAR"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -705,9 +665,6 @@
      "routes": [
       "Walmart+"
      ],
-     "credit_line_patterns": [
-      "WALMART"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Statement credit for one auto-renewing monthly Walmart+ membership, up to $12.95 monthly plus applicable taxes.",
      "checked_on": "2026-10-07",
@@ -725,9 +682,6 @@
      "enrollment_required": true,
      "value_to_me_default": 50,
      "merchant_patterns": [
-      "OURA"
-     ],
-     "credit_line_patterns": [
       "OURA"
      ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
@@ -755,10 +709,6 @@
       "Global Entry",
       "TSA PreCheck"
      ],
-     "credit_line_patterns": [
-      "GLOBAL ENTRY",
-      "TSA"
-     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
      "quote": "Receive either a statement credit every 4 years after you apply for Global Entry ($120) or a statement credit after you apply for a five-year membership for TSA PreCheck\u00ae (up to $85 through a TSA PreCheck official enrollment provider)",
      "checked_on": "2026-10-07",
@@ -776,9 +726,6 @@
      "ends_on": "2026-07-01",
      "enrollment_required": true,
      "merchant_patterns": [
-      "SAKS"
-     ],
-     "credit_line_patterns": [
       "SAKS"
      ],
      "source": "https://roamingcactus.com/credit-cards/amex-platinum-benefits-2026",
@@ -862,10 +809,6 @@
      "enrollment_required": false,
      "merchant_patterns": [
       "BILT TRAVEL"
-     ],
-     "credit_line_patterns": [
-      "BILT TRAVEL",
-      "HOTEL CREDIT"
      ],
      "source": "https://www.bilt.com/card/palladium",
      "quote": "$400 Bilt Travel Hotel credit distributed as $200 semi-annually (applicable to 2-night minimum stay at Bilt Travel Portal properties).",
@@ -1259,9 +1202,6 @@
       "PARKING",
       "TOLL"
      ],
-     "credit_line_patterns": [
-      "TRAVEL CREDIT"
-     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get the most flexible travel credit compared to any other card, with up to $300 in statement credits for travel purchases each account anniversary year.",
      "checked_on": "2026-10-07",
@@ -1283,10 +1223,6 @@
       "THE EDIT",
       "CHASE TRAVEL"
      ],
-     "credit_line_patterns": [
-      "EDIT",
-      "HOTEL CREDIT"
-     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Receive a statement credit of up to $250 for each prepaid booking with The Edit, up to $500 annually. Two-night minimum.",
      "checked_on": "2026-10-07",
@@ -1304,10 +1240,6 @@
      "enrollment_required": false,
      "merchant_patterns": [
       "OPENTABLE"
-     ],
-     "credit_line_patterns": [
-      "DINING CREDIT",
-      "EXCLUSIVE TABLES"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get up to $150 in statement credits from January through June and again from July through December for a maximum of $300 annually when you dine at restaurants part of the Sapphire Exclusive Tables program on OpenTable.",
@@ -1329,9 +1261,6 @@
      "merchant_patterns": [
       "STUBHUB",
       "VIAGOGO"
-     ],
-     "credit_line_patterns": [
-      "STUBHUB"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get up to $150 in statement credits from January through June and again from July through December for a maximum of $300 annually for StubHub and viagogo purchases through 12/31/2027. Activation required.",
@@ -1368,9 +1297,6 @@
      "ends_on": "2027-12-31",
      "enrollment_required": true,
      "merchant_patterns": [
-      "PELOTON"
-     ],
-     "credit_line_patterns": [
       "PELOTON"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
@@ -1410,9 +1336,6 @@
      "merchant_patterns": [
       "CHASE TRAVEL"
      ],
-     "credit_line_patterns": [
-      "SELECT HOTELS"
-     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get up to $250 in statement credits through 12/31/26 on prepaid Chase Travel hotel bookings for stays with IHG Hotels & Resorts, Montage Hotels & Resorts, Pendry Hotels & Resorts, Omni Hotels & Resorts, Virgin Hotels, Minor Hotels, and Pan Pacific Hotels and Resorts.",
      "checked_on": "2026-10-07",
@@ -1438,10 +1361,6 @@
       "Global Entry",
       "TSA PreCheck",
       "NEXUS"
-     ],
-     "credit_line_patterns": [
-      "GLOBAL ENTRY",
-      "TSA"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "You will receive one statement credit every four years (up to $120) after the first program (either Global Entry or TSA PreCheck\u00ae or NEXUS) application fee is charged to your Chase Sapphire Reserve card",
@@ -1625,9 +1544,6 @@
      "merchant_patterns": [
       "RENOWNED"
      ],
-     "credit_line_patterns": [
-      "RENOWNED"
-     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
      "quote": "Receive up to $200 back in statement credits each anniversary year on hotel accommodations when you prepay directly through Renowned Hotels and Resorts",
      "checked_on": "2026-10-07",
@@ -1646,9 +1562,6 @@
       "JSX"
      ],
      "routes": [
-      "JSX"
-     ],
-     "credit_line_patterns": [
       "JSX"
      ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
@@ -1719,9 +1632,6 @@
       "UBER",
       "LYFT"
      ],
-     "credit_line_patterns": [
-      "RIDESHARE"
-     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
      "quote": "Up to $150 in credits on rideshare purchases",
      "checked_on": "2026-10-07",
@@ -1740,10 +1650,6 @@
      "max_uses": 2,
      "enrollment_required": false,
      "merchant_patterns": [
-      "AVIS",
-      "BUDGET"
-     ],
-     "credit_line_patterns": [
       "AVIS",
       "BUDGET"
      ],
@@ -1771,10 +1677,6 @@
       "Global Entry",
       "TSA PreCheck",
       "NEXUS"
-     ],
-     "credit_line_patterns": [
-      "GLOBAL ENTRY",
-      "TSA"
      ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
      "quote": "You will receive one statement credit every four years (up to $120) after the first program (either Global Entry or TSA PreCheck\u00ae or NEXUS) application fee is charged to your United ClubSM Card",
@@ -2130,9 +2032,6 @@
      "merchant_patterns": [
       "RENOWNED"
      ],
-     "credit_line_patterns": [
-      "RENOWNED"
-     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
      "quote": "Receive up to $150 back in statement credits each anniversary year on hotel accommodations when you prepay directly through Renowned Hotels and Resorts",
      "checked_on": "2026-10-07",
@@ -2152,9 +2051,6 @@
       "JSX"
      ],
      "routes": [
-      "JSX"
-     ],
-     "credit_line_patterns": [
       "JSX"
      ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
@@ -2222,9 +2118,6 @@
       "UBER",
       "LYFT"
      ],
-     "credit_line_patterns": [
-      "RIDESHARE"
-     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
      "quote": "Up to $100 in credits on rideshare purchases annually",
      "checked_on": "2026-10-07",
@@ -2242,10 +2135,6 @@
      "max_uses": 2,
      "enrollment_required": false,
      "merchant_patterns": [
-      "AVIS",
-      "BUDGET"
-     ],
-     "credit_line_patterns": [
       "AVIS",
       "BUDGET"
      ],
@@ -2273,10 +2162,6 @@
       "Global Entry",
       "TSA PreCheck",
       "NEXUS"
-     ],
-     "credit_line_patterns": [
-      "GLOBAL ENTRY",
-      "TSA"
      ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
      "quote": "You will receive one statement credit every four years (up to $120) after the first program (either Global Entry or TSA PreCheck\u00ae or NEXUS) application fee is charged to your United QuestSM Card",
