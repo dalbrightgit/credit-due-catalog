@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.22.0",
- "generated_at": "2026-10-09T17:09:09+00:00",
+ "catalog_version": "0.23.0",
+ "generated_at": "2026-10-15T07:08:26+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -1464,6 +1464,9 @@
      "cadence": "annual",
      "anchor": "anniversary",
      "enrollment_required": false,
+     "routes": [
+      "Chase Travel"
+     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
      "quote": "Earn up to $100 in statement credits each account anniversary year for hotel stays purchased through Chase Travel",
      "checked_on": "2026-09-24",
@@ -1613,6 +1616,9 @@
       "THE EDIT",
       "CHASE TRAVEL"
      ],
+     "routes": [
+      "Chase Travel"
+     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Receive a statement credit of up to $250 for each prepaid booking with The Edit, up to $500 annually. Two-night minimum.",
      "checked_on": "2026-10-07",
@@ -1630,6 +1636,9 @@
      "enrollment_required": false,
      "merchant_patterns": [
       "OPENTABLE"
+     ],
+     "routes": [
+      "OpenTable"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get up to $150 in statement credits from January through June and again from July through December for a maximum of $300 annually when you dine at restaurants part of the Sapphire Exclusive Tables program on OpenTable.",
@@ -1652,6 +1661,10 @@
       "STUBHUB",
       "VIAGOGO"
      ],
+     "routes": [
+      "StubHub",
+      "viagogo"
+     ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "Get up to $150 in statement credits from January through June and again from July through December for a maximum of $300 annually for StubHub and viagogo purchases through 12/31/2027. Activation required.",
      "checked_on": "2026-10-07",
@@ -1669,6 +1682,9 @@
      "enrollment_required": true,
      "merchant_patterns": [
       "DOORDASH"
+     ],
+     "routes": [
+      "DoorDash"
      ],
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
      "quote": "DashPass members get up to $25 each month to spend on DoorDash",
@@ -1934,6 +1950,9 @@
      "merchant_patterns": [
       "RENOWNED"
      ],
+     "routes": [
+      "Renowned Hotels and Resorts"
+     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/club-infinite",
      "quote": "Receive up to $200 back in statement credits each anniversary year on hotel accommodations when you prepay directly through Renowned Hotels and Resorts",
      "checked_on": "2026-10-07",
@@ -2174,6 +2193,9 @@
      "per_use_cap": 50,
      "max_uses": 2,
      "enrollment_required": false,
+     "routes": [
+      "United Hotels"
+     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
      "quote": "Receive $50 back as a statement credit on both your 1st and 2nd prepaid hotel stays purchased directly through United\u00ae Hotels",
      "checked_on": "2026-10-04",
@@ -2189,6 +2211,9 @@
      "cadence": "annual",
      "anchor": "anniversary",
      "enrollment_required": false,
+     "routes": [
+      "JSX"
+     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
      "quote": "Get up to $100 back as a statement credit each anniversary year when you book flights directly with JSX",
      "checked_on": "2026-10-04",
@@ -2205,6 +2230,10 @@
      "per_use_cap": 25,
      "max_uses": 2,
      "enrollment_required": false,
+     "routes": [
+      "Avis",
+      "Budget"
+     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
      "quote": "Receive $25 in United\u00ae TravelBank cash, up to $50 each anniversary year, for your 1st and 2nd Avis or Budget car rental booked directly through mileageplustravel.united.com",
      "checked_on": "2026-10-04",
@@ -2264,6 +2293,9 @@
      ],
      "ends_on": "2027-12-31",
      "enrollment_required": true,
+     "routes": [
+      "Instacart"
+     ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-explorer",
      "quote": "Receive a $10 Instacart credit monthly, up to $120 total each calendar year",
      "checked_on": "2026-10-04",
@@ -2421,6 +2453,9 @@
      "enrollment_required": false,
      "merchant_patterns": [
       "RENOWNED"
+     ],
+     "routes": [
+      "Renowned Hotels and Resorts"
      ],
      "source": "https://creditcards.chase.com/travel-credit-cards/united/united-quest",
      "quote": "Receive up to $150 back in statement credits each anniversary year on hotel accommodations when you prepay directly through Renowned Hotels and Resorts",
