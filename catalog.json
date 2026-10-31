@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.23.0",
- "generated_at": "2026-10-15T07:08:26+00:00",
+ "catalog_version": "0.24.0",
+ "generated_at": "2026-10-31T20:51:35+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -695,7 +695,7 @@
    "benefits": [
     {
      "id": "amex-platinum.hotel",
-     "name": "Hotel credit",
+     "name": "Lodging credit",
      "kind": "cash",
      "redemption": "statement_credit",
      "cap": 600,
@@ -709,11 +709,37 @@
       "FINE HOTELS",
       "THE HOTEL COLLECTION"
      ],
+     "routes": [
+      "Fine Hotels + Resorts",
+      "The Hotel Collection",
+      "Airbnb Luxe"
+     ],
      "source": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
-     "quote": "Get up to $300 back in statement credits semi-annually for up to a total of $600 per year on prepaid Fine Hotels + Resorts\u00ae or The Hotel Collection",
-     "checked_on": "2026-10-07",
+     "quote": "Get up to $300 in statement credits semi-annually on prepaid Fine Hotels + Resorts\u00ae program or The Hotel Collection bookings ... Effective January 1, 2027, Fine Hotels + Resorts\u00ae bookings will require a minimum two-night stay",
+     "checked_on": "2026-10-27",
      "verification": "verified",
-     "notes": "Only prepaid Fine Hotels + Resorts and The Hotel Collection bookings made through Amex Travel count. The Hotel Collection needs a 2-night stay."
+     "notes": "Only prepaid Fine Hotels + Resorts, The Hotel Collection and Airbnb Luxe bookings made through Amex Travel count. The Hotel Collection and Airbnb Luxe need a 2-night stay, and from 1 Jan 2027 Fine Hotels + Resorts does too."
+    },
+    {
+     "id": "amex-platinum.airbnb-experiences",
+     "name": "Airbnb Experiences",
+     "kind": "cash",
+     "redemption": "statement_credit",
+     "cap": 250,
+     "cadence": "annual",
+     "anchor": "calendar",
+     "enrollment_required": false,
+     "merchant_patterns": [
+      "AIRBNB"
+     ],
+     "routes": [
+      "Airbnb"
+     ],
+     "source": "https://global.americanexpress.com/card-benefits/detail/experiences-credit/platinum",
+     "quote": "Once your booking is confirmed, you can get up to $250 in statement credits through the remainder of that calendar year after you use your Card to purchase eligible Airbnb Experiences* directly with Airbnb.",
+     "checked_on": "2026-10-27",
+     "verification": "verified",
+     "notes": "Works only after you book a prepaid Airbnb Luxe stay through Amex Travel that year. Buy the Experience directly with Airbnb. If you cancel the stay, Amex can take the credit back."
     },
     {
      "id": "amex-platinum.resy",
@@ -863,6 +889,7 @@
      "cap": 300,
      "cadence": "annual",
      "anchor": "calendar",
+     "ends_on": "2026-10-27",
      "enrollment_required": true,
      "value_to_me_default": 0,
      "merchant_patterns": [
@@ -872,7 +899,7 @@
      "quote": "Get up to $300 in statement credits each calendar year after you pay with your Platinum Card\u00ae for an Equinox club membership or Equinox+ digital subscription (subject to auto-renewal). Enrollment required.",
      "checked_on": "2026-10-07",
      "verification": "verified",
-     "notes": "You need an Equinox membership to use this."
+     "notes": "Amex no longer offers this credit; earlier claims stay in your history."
     },
     {
      "id": "amex-platinum.clear",
