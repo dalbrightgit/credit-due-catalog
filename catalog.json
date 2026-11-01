@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
- "catalog_version": "0.24.0",
- "generated_at": "2026-10-31T20:51:35+00:00",
+ "catalog_version": "0.25.0",
+ "generated_at": "2026-11-01T11:53:05+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
    "name": "Delta SkyMiles\u00ae Reserve American Express Card",
-   "short_name": "SkyMiles Reserve",
+   "short_name": "Delta SkyMiles Reserve",
    "issuer": "American Express",
    "network": "amex",
    "annual_fee": 650,
@@ -194,7 +194,7 @@
   {
    "id": "amex-gold",
    "name": "American Express\u00ae Gold Card",
-   "short_name": "Gold",
+   "short_name": "American Express Gold",
    "issuer": "American Express",
    "network": "amex",
    "annual_fee": 325,
@@ -303,7 +303,7 @@
   {
    "id": "amex-hilton-aspire",
    "name": "Hilton Honors American Express Aspire Card",
-   "short_name": "Hilton Aspire",
+   "short_name": "Hilton Honors Aspire",
    "issuer": "American Express",
    "network": "amex",
    "annual_fee": 550,
@@ -512,7 +512,7 @@
   {
    "id": "amex-marriott-bonvoy-brilliant",
    "name": "Marriott Bonvoy Brilliant\u00ae American Express\u00ae Card",
-   "short_name": "Bonvoy Brilliant",
+   "short_name": "Marriott Bonvoy Brilliant",
    "issuer": "American Express",
    "network": "amex",
    "annual_fee": 650,
@@ -685,7 +685,7 @@
   {
    "id": "amex-platinum",
    "name": "The Platinum Card from American Express",
-   "short_name": "Amex Platinum",
+   "short_name": "American Express Platinum",
    "issuer": "American Express",
    "network": "amex",
    "annual_fee": 895,
@@ -1160,7 +1160,7 @@
   {
    "id": "bofa-atmos-summit",
    "name": "Atmos\u2122 Rewards Summit Visa Infinite\u00ae",
-   "short_name": "Atmos Summit",
+   "short_name": "Atmos Rewards Summit",
    "issuer": "Bank of America",
    "network": "visa",
    "annual_fee": 395,
@@ -1366,7 +1366,7 @@
   {
    "id": "capitalone-venture-x",
    "name": "Capital One Venture X Rewards Credit Card",
-   "short_name": "Venture X",
+   "short_name": "Capital One Venture X",
    "issuer": "Capital One",
    "network": "visa",
    "annual_fee": 395,
@@ -1474,7 +1474,7 @@
   {
    "id": "chase-sapphire-preferred",
    "name": "Chase Sapphire Preferred",
-   "short_name": "Sapphire Preferred",
+   "short_name": "Chase Sapphire Preferred",
    "issuer": "Chase",
    "network": "visa",
    "annual_fee": 95,
@@ -1569,7 +1569,7 @@
   {
    "id": "chase-sapphire-reserve",
    "name": "Chase Sapphire Reserve",
-   "short_name": "Sapphire Reserve",
+   "short_name": "Chase Sapphire Reserve",
    "issuer": "Chase",
    "network": "visa",
    "annual_fee": 795,
@@ -2673,7 +2673,7 @@
   {
    "id": "citi-aadvantage-executive",
    "name": "Citi\u00ae / AAdvantage\u00ae Executive World Legend Mastercard\u00ae",
-   "short_name": "AAdvantage Executive",
+   "short_name": "Citi AAdvantage Executive",
    "issuer": "Citi",
    "network": "mastercard",
    "annual_fee": 695,
@@ -2845,7 +2845,7 @@
   {
    "id": "citi-strata-elite",
    "name": "Citi Strata Elite\u2120 Card",
-   "short_name": "Strata Elite",
+   "short_name": "Citi Strata Elite",
    "issuer": "Citi",
    "network": "mastercard",
    "annual_fee": 595,
