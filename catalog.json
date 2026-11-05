@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
- "catalog_version": "0.25.0",
- "generated_at": "2026-11-01T11:53:05+00:00",
+ "catalog_version": "0.27.0",
+ "generated_at": "2026-11-05T00:17:42+00:00",
  "cards": [
   {
    "id": "amex-delta-skymiles-reserve",
@@ -1433,8 +1433,8 @@
      "anchor": "anniversary",
      "enrollment_required": false,
      "source": "https://www.capitalone.com/credit-cards/venture-x/",
-     "quote": "Annually, eligible Venture X primary account holders will receive a $300 Capital One Travel credit (\"Credit\") to use toward purchases made through Capital One Travel. Each annual Credit will expire on the next account open date anniversary.",
-     "checked_on": "2026-10-08",
+     "quote": "Annually, eligible Venture X primary account holders will receive a $300 Capital One Travel credit (\u201cCredit\u201d) to use toward purchases made through Capital One Travel. Each annual Credit will expire on the next account open date anniversary.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
      "notes": "Apply it at checkout in Capital One Travel, all at once or over several purchases. It expires on your account anniversary and is not carried over."
     },
@@ -1523,11 +1523,11 @@
      "cap": 120,
      "cadence": "monthly",
      "anchor": "calendar",
-     "ends_on": "2027-12-31",
+     "ends_on": "2029-12-31",
      "enrollment_required": true,
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-     "quote": "Plus, DashPass members get a $10 promo each month ($120 annually) to save on groceries, retail orders, and more through December 31, 2027.",
-     "checked_on": "2026-09-24",
+     "quote": "Plus, DashPass members get a $10 promo each month ($120 annually) to save on groceries, retail orders, and more.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
      "notes": "Activate the complimentary DashPass first. $10 off one non-restaurant order (groceries, retail) each calendar month, chosen at DoorDash checkout. Unused value does not roll over."
     },
@@ -1542,10 +1542,10 @@
      "value_category": "other",
      "holding": "held",
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-     "quote": "Get a complimentary DashPass membership, a $120 value for 12 months.",
-     "checked_on": "2026-09-24",
+     "quote": "Get a complimentary DashPass membership, a $120 value for 12 months. Enjoy $0 delivery fees and reduced service fees on eligible DoorDash orders when you activate by 12/31/29.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
-     "notes": "Activate with this card on DoorDash by December 31, 2027. Chase describes it as a $120 value for 12 months; set what it is worth to you."
+     "notes": "Activate with this card on DoorDash by December 31, 2029. Chase describes it as a $120 value for 12 months; set what it is worth to you."
     },
     {
      "id": "chase-sapphire-preferred.apple-tv",
@@ -1559,10 +1559,10 @@
      "holding": "held",
      "market_price": 179.88,
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
-     "quote": "Get a year of complimentary Apple TV when activated by December 31, 2026 - a value of $156.",
-     "checked_on": "2026-09-24",
+     "quote": "Get a year of complimentary Apple TV when activated by December 31, 2026 - a value of $180.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
-     "notes": "Activate on chase.com or the Chase app by December 31, 2026 for at least 12 months of Apple TV. Chase calls it a $156 value; Apple charges $14.99 a month."
+     "notes": "Activate on chase.com or the Chase app by December 31, 2026 for at least 12 months of Apple TV. Chase calls it a $180 value; Apple charges $14.99 a month."
     }
    ]
   },
@@ -1705,7 +1705,7 @@
      "cap": 300,
      "cadence": "monthly",
      "anchor": "calendar",
-     "ends_on": "2027-12-31",
+     "ends_on": "2026-11-30",
      "enrollment_required": true,
      "merchant_patterns": [
       "DOORDASH"
@@ -1718,6 +1718,30 @@
      "checked_on": "2026-10-07",
      "verification": "verified",
      "notes": "$5 restaurant plus two $10 non-restaurant promos, applied at DoorDash checkout. DashPass membership is separate and noncash."
+    },
+    {
+     "id": "chase-sapphire-reserve.doordash-35",
+     "name": "DoorDash promotions",
+     "kind": "cash",
+     "redemption": "in_app",
+     "cap": 420,
+     "cadence": "monthly",
+     "anchor": "calendar",
+     "starts_on": "2026-12-01",
+     "ends_on": "2029-12-31",
+     "supersedes": "chase-sapphire-reserve.doordash",
+     "enrollment_required": true,
+     "merchant_patterns": [
+      "DOORDASH"
+     ],
+     "routes": [
+      "DoorDash"
+     ],
+     "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+     "quote": "DashPass members now get up to $35 each month to spend on DoorDash",
+     "checked_on": "2026-11-02",
+     "verification": "verified",
+     "notes": "$15 off one qualifying order plus two $10 non-restaurant promos each month, applied at DoorDash checkout. DashPass membership is separate and noncash."
     },
     {
      "id": "chase-sapphire-reserve.peloton",
@@ -1812,8 +1836,8 @@
      "value_category": "other",
      "holding": "held",
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
-     "quote": "$288 in Apple TV and Apple Music subscriptions",
-     "checked_on": "2026-10-07",
+     "quote": "$324 in Apple TV and Apple Music subscriptions",
+     "checked_on": "2026-11-02",
      "verification": "verified"
     },
     {
@@ -1821,7 +1845,7 @@
      "name": "DashPass membership",
      "kind": "noncash",
      "redemption": "none",
-     "ends_on": "2027-12-31",
+     "ends_on": "2029-12-31",
      "enrollment_required": true,
      "unit": "year",
      "valuation": "user_set",
@@ -1829,8 +1853,8 @@
      "holding": "held",
      "notes": "DashPass is an ordinary paid membership anyone can buy. Set what you pay for it.",
      "source": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
-     "quote": "Complimentary DashPass membership, a $120 value for 12 months. Enjoy $0 delivery fees and reduced service fees on eligible DoorDash orders when you activate by 12/31/2027.",
-     "checked_on": "2026-10-07",
+     "quote": "Complimentary DashPass membership, a $120 value for 12 months. Enjoy $0 delivery fees and reduced service fees on eligible DoorDash orders, plus exclusive Chase savings on grocery, everyday essentials, and more. Activate by 12/31/29.",
+     "checked_on": "2026-11-02",
      "verification": "verified"
     },
     {
@@ -2692,8 +2716,8 @@
      "value_category": "lounge_membership",
      "holding": "held",
      "source": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
-     "quote": "Membership includes unlimited visits for you (and up to 2 guests or immediate members) to more that 100 Admirals Club\u00ae lounges and partner lounges worldwide.",
-     "checked_on": "2026-10-08",
+     "quote": "Membership includes unlimited visits for you (and up to 2 guests or immediate family members) to more that 100 Admirals Club\u00ae lounges and partner lounges worldwide.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
      "notes": "Unlimited visits for you and up to 2 guests or immediate family members. Citi values the membership at up to $1,400. Set what it is worth to you."
     },
@@ -2708,8 +2732,8 @@
      "per_window_cap": 250,
      "enrollment_required": false,
      "source": "https://www.citi.com/credit-cards/citi-aadvantage-executive-world-legend-mastercard",
-     "quote": "Every calendar year, earn up to $500 in statement credits on eligible American Airlines VacationsSM travel packages or experiences. Earn up to $250 on purchases January through June and up to $250 July through December.",
-     "checked_on": "2026-10-08",
+     "quote": "Every calendar year, earn up to $500 in statement credits on eligible American Airlines Vacations\u2120 travel packages or experiences. Earn up to $250 on purchases January through June and up to $250 July through December.",
+     "checked_on": "2026-11-02",
      "verification": "verified",
      "notes": "Only packages and experiences bought through aavacations.com count. You get up to $250 for January to June and up to $250 for July to December."
     },
